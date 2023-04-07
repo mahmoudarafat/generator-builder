@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>InfyOm Technologies</title>
+    <title>Albadr Systems</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -39,7 +39,7 @@
         <div id="info" style="display: none"></div>
         <div class="box box-primary col-lg-12">
             <div class="box-header" style="margin-top: 10px">
-                <h1 class="box-title" style="font-size: 30px">InfyOm Laravel Generator Builder</h1>
+                <h1 class="box-title" style="font-size: 30px">Laravel Generator Builder</h1>
             </div>
             <div class="box-body">
                 <form id="form">
@@ -52,9 +52,9 @@
                     <div class="form-group col-md-4">
                         <label for="drdCommandType">Command Type</label>
                         <select id="drdCommandType" class="form-control" style="width: 100%">
-                            <option value="infyom:api_scaffold">API Scaffold Generator</option>
-                            <option value="infyom:api">API Generator</option>
-                            <option value="infyom:scaffold">Scaffold Generator</option>
+                            <option value="albadrsystems:api_scaffold">API Scaffold Generator</option>
+                            <option value="albadrsystems:api">API Generator</option>
+                            <option value="albadrsystems:scaffold">Scaffold Generator</option>
                         </select>
                     </div>
                     <div class="form-group col-md-4">
@@ -295,9 +295,9 @@
                     <div class="form-group col-md-4">
                         <label for="drdSmCommandType">Command Type</label>
                         <select name="commandType" id="drdSmCommandType" class="form-control" style="width: 100%">
-                            <option value="infyom:api_scaffold">API Scaffold Generator</option>
-                            <option value="infyom:api">API Generator</option>
-                            <option value="infyom:scaffold">Scaffold Generator</option>
+                            <option value="albadrsystems:api_scaffold">API Scaffold Generator</option>
+                            <option value="albadrsystems:api">API Generator</option>
+                            <option value="albadrsystems:scaffold">Scaffold Generator</option>
                         </select>
                     </div>
                     <div class="form-inline col-md-12" style="padding:15px 15px;text-align: right">
@@ -328,7 +328,7 @@
         });
 
         $("#drdCommandType").on("change", function () {
-            if ($(this).val() == "infyom:scaffold") {
+            if ($(this).val() == "albadrsystems:scaffold") {
                 $('#chSwag').hide();
                 $('#chTest').hide();
             }

@@ -12,4 +12,3 @@ Route::post(
     'generator_builder/generate-from-file',
     '\AlbadrSystems\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 )->name('io_generator_builder_generate_from_file');
-
